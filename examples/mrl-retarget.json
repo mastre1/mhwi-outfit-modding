@@ -1,0 +1,10 @@
+
+{
+  "material_names": {
+    "Donor_Cloth": "MyOutfit_Cloth"
+  },
+  "texture_paths": {
+    "pl\\f_equip\\pl123_0000\\body\\tex\\Donor_Cloth_BML": "MyOutfit\\textures\\cloth_albedo",
+    "pl\\f_equip\\pl123_0000\\body\\tex\\Donor_Cloth_NM": "MyOutfit\\textures\\cloth_normal"
+  }
+}

@@ -1,0 +1,79 @@
+
+{
+  "sex": "f",
+  "number": "123_0000",
+  "retarget": [
+    {
+      "rig": "f_body123_0000 Armature",
+      "objects": ["LOD_ALL_Group_0_Sub_0__MyOutfit_Skin"],
+      "groups": {"source_pelvis": 13, "source_spine": 1, "source_chest": 2, "source_left_forearm": 7, "source_left_hand": 8},
+      "ignore_groups": ["PROFILE_L"],
+      "max_influences": 4
+    }
+  ],
+  "radial": [
+    {
+      "object": "LOD_ALL_Group_0_Sub_0__MyOutfit_Skin",
+      "mask": "PROFILE_L",
+      "start": [0.31, 0.03, 1.20],
+      "end": [0.53, 0.005, 1.13],
+      "gain": 0.10,
+      "window": [0.08, 0.43, 0.68, 0.995],
+      "max_delta_m": 0.006
+    }
+  ],
+  "parts": {
+    "body": {
+      "collection": "MHWI_body",
+      "mrl3": "X:/work/outfit/MyOutfit_body.mrl3",
+      "physics": {
+        "reserved_ids": [150, 151, 152],
+        "max_influences": 4,
+        "chains": [
+          {
+            "anchor": 13,
+            "ids": [220, 221, 222, 223],
+            "points": [[0.00, 0.10, 1.02], [0.00, 0.24, 0.93], [0.00, 0.42, 0.85], [0.01, 0.58, 0.89]],
+            "bind": [{"object": "LOD_ALL_Group_0_Sub_1__MyOutfit_Fur", "mask": "SIM_TAIL"}],
+            "collision": 0,
+            "gravity": 230,
+            "damping": 0.16,
+            "spring": 0.023,
+            "angle_deg": 40
+          },
+          {
+            "anchor": 13,
+            "ids": [224, 225, 226, 227],
+            "points": [[0.00, -0.13, 0.98], [0.00, -0.16, 0.77], [0.00, -0.20, 0.56], [0.00, -0.24, 0.35]],
+            "bind": [{"object": "LOD_ALL_Group_0_Sub_2__MyOutfit_Cloth", "mask": "SIM_FRONT"}],
+            "collision": 4,
+            "gravity": 280,
+            "radius_cm": 1.4,
+            "angle_deg": 30
+          },
+          {
+            "anchor": 6,
+            "ids": [228, 229, 230],
+            "points": [[0.24, 0.04, 1.36], [0.29, 0.09, 1.23], [0.34, 0.13, 1.08]],
+            "bind": [{"object": "LOD_ALL_Group_0_Sub_3__MyOutfit_Cloth", "mask": "SIM_SLEEVE_L"}],
+            "collision": 0,
+            "angle_deg": 28
+          },
+          {
+            "anchor": 10,
+            "ids": [231, 232, 233],
+            "points": [[-0.24, 0.04, 1.36], [-0.29, 0.09, 1.23], [-0.34, 0.13, 1.08]],
+            "bind": [{"object": "LOD_ALL_Group_0_Sub_4__MyOutfit_Cloth", "mask": "SIM_SLEEVE_R"}],
+            "collision": 0,
+            "angle_deg": 28
+          }
+        ],
+        "colliders": [
+          {"start_id": 13, "end_id": 14, "radius_cm": 6.5},
+          {"start_id": 14, "end_id": 15, "radius_cm": 5.5},
+          {"start_id": 18, "end_id": 19, "radius_cm": 5.5}
+        ]
+      }
+    }
+  }
+}

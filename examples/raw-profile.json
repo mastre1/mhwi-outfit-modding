@@ -1,0 +1,15 @@
+
+{
+  "profiles": [
+    {
+      "mesh_index": 7,
+      "expected_material": "MyOutfit_Skin",
+      "expected_vertices": 12000,
+      "start": [0.31, 0.03, 1.2],
+      "end": [0.53, 0.005, 1.13],
+      "gain": 0.1,
+      "window": [0.08, 0.43, 0.68, 0.995],
+      "max_delta_m": 0.006
+    }
+  ]
+}
